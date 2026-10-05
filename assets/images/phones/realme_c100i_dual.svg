@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 360" width="100%" height="100%">
+  <defs>
+    <radialGradient id="glow_1395675900786434378" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="c1_1395675900786434378" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2c07d"/>
+      <stop offset="100%" stop-color="#e2c07d" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="c2_1395675900786434378" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1f24"/>
+      <stop offset="100%" stop-color="#1c1f24" stop-opacity="0.8"/>
+    </linearGradient>
+    <filter id="shadow_1395675900786434378" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="35%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="gold_border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#b8860b"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Ambient Glow -->
+  <circle cx="170" cy="180" r="150" fill="url(#glow_1395675900786434378)"/>
+
+  <!-- Phone 2 (Back / Color 2, angled right) -->
+  <g transform="translate(145, 30) rotate(11 65 140)" filter="url(#shadow_1395675900786434378)">
+    <rect x="0" y="0" width="135" height="275" rx="26" fill="#334155" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="3" y="3" width="129" height="269" rx="23" fill="url(#c2_1395675900786434378)"/>
+    <rect x="3" y="3" width="129" height="269" rx="23" fill="url(#shine)"/>
+    
+    <!-- Camera Island -->
+    <rect x="12" y="14" width="48" height="74" rx="14" fill="#090d16" fill-opacity="0.8" stroke="#cbd5e1" stroke-width="1" stroke-opacity="0.4"/>
+    <circle cx="36" cy="35" r="14" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+    <circle cx="36" cy="35" r="8" fill="#020617"/>
+    <circle cx="34" cy="33" r="3" fill="#38bdf8" fill-opacity="0.85"/>
+    <circle cx="36" cy="68" r="12" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+    <circle cx="36" cy="68" r="6" fill="#020617"/>
+    <circle cx="34" cy="66" r="2" fill="#38bdf8" fill-opacity="0.85"/>
+    <circle cx="21" cy="78" r="4" fill="#fef08a"/>
+  </g>
+
+  <!-- Phone 1 (Front / Color 1, angled left) -->
+  <g transform="translate(45, 45) rotate(-6 65 140)" filter="url(#shadow_1395675900786434378)">
+    <rect x="0" y="0" width="135" height="275" rx="26" fill="#1e293b" stroke="url(#gold_border)" stroke-width="1.5"/>
+    <rect x="3" y="3" width="129" height="269" rx="23" fill="url(#c1_1395675900786434378)"/>
+    <rect x="3" y="3" width="129" height="269" rx="23" fill="url(#shine)"/>
+    
+    <!-- Camera Island -->
+    <rect x="12" y="14" width="48" height="76" rx="15" fill="#090d16" fill-opacity="0.8" stroke="#e2e8f0" stroke-width="1" stroke-opacity="0.5"/>
+    <circle cx="36" cy="35" r="14" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+    <circle cx="36" cy="35" r="8" fill="#020617"/>
+    <circle cx="34" cy="33" r="3" fill="#38bdf8" fill-opacity="0.85"/>
+    <circle cx="36" cy="68" r="12" fill="#1e293b" stroke="#94a3b8" stroke-width="1.5"/>
+    <circle cx="36" cy="68" r="6" fill="#020617"/>
+    <circle cx="34" cy="66" r="2" fill="#38bdf8" fill-opacity="0.85"/>
+    <circle cx="21" cy="79" r="4" fill="#fef08a"/>
+
+    <!-- Subtle Dahab Signature -->
+    <text x="67" y="242" font-family="'Cairo', sans-serif" font-size="8.5" font-weight="700" fill="#ffffff" fill-opacity="0.75" text-anchor="middle" letter-spacing="1">DAHAB EDITION</text>
+  </g>
+</svg>

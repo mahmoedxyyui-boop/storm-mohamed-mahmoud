@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 280" width="100%" height="100%">
+  <defs>
+    <radialGradient id="budsglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="130" cy="140" r="110" fill="url(#budsglow)"/>
+  <g transform="translate(55, 45)">
+    <!-- Case -->
+    <ellipse cx="75" cy="85" rx="65" ry="50" fill="#09090b" stroke="#38bdf8" stroke-width="2"/>
+    <!-- Lid Cut line -->
+    <path d="M12 85 Q75 60 138 85" stroke="#38bdf8" stroke-width="1.5" fill="none"/>
+    <!-- LED Dot -->
+    <circle cx="75" cy="105" r="3.5" fill="#38bdf8"/>
+    <!-- Logo -->
+    <text x="75" y="55" font-family="'Cairo', sans-serif" font-size="12" font-weight="900" fill="#ffffff" text-anchor="middle">realme</text>
+    <text x="75" y="165" font-family="'Cairo', sans-serif" font-size="10" font-weight="bold" fill="#38bdf8" text-anchor="middle">BUDS WIRELESS ANC</text>
+  </g>
+</svg>

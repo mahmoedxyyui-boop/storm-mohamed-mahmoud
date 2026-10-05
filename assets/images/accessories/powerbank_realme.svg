@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 280" width="100%" height="100%">
+  <defs>
+    <radialGradient id="pbglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#eab308" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="130" cy="140" r="110" fill="url(#pbglow)"/>
+  <g transform="translate(65, 30)">
+    <!-- Powerbank body -->
+    <rect x="0" y="0" width="130" height="210" rx="20" fill="#18181b" stroke="#eab308" stroke-width="2"/>
+    <!-- Ports top -->
+    <rect x="30" y="8" width="22" height="6" rx="2" fill="#09090b"/>
+    <rect x="65" y="7" width="35" height="8" rx="2" fill="#09090b" stroke="#eab308" stroke-width="0.8"/>
+    <!-- Battery Level Indicator LEDs -->
+    <circle cx="45" cy="50" r="3" fill="#eab308"/>
+    <circle cx="58" cy="50" r="3" fill="#eab308"/>
+    <circle cx="71" cy="50" r="3" fill="#eab308"/>
+    <circle cx="84" cy="50" r="3" fill="#71717a"/>
+    <!-- Texture ridges -->
+    <path d="M15 80 L115 80 M15 100 L115 100 M15 120 L115 120" stroke="#27272a" stroke-width="2"/>
+    <text x="65" y="165" font-family="'Cairo', sans-serif" font-size="16" font-weight="900" fill="#eab308" text-anchor="middle">realme</text>
+    <text x="65" y="185" font-family="'Cairo', sans-serif" font-size="9" font-weight="bold" fill="#a1a1aa" text-anchor="middle">20000mAh DART</text>
+  </g>
+</svg>

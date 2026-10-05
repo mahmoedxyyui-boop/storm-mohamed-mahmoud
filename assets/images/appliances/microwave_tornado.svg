@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 260" width="100%" height="100%">
+  <defs>
+    <radialGradient id="microglow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <circle cx="160" cy="130" r="120" fill="url(#microglow)"/>
+  <g transform="translate(30, 40)">
+    <rect x="0" y="0" width="260" height="170" rx="14" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+    <!-- Glass Door -->
+    <rect x="12" y="14" width="165" height="142" rx="8" fill="#090d16" stroke="#64748b" stroke-width="1.5"/>
+    <rect x="22" y="24" width="145" height="122" rx="6" fill="#1e1b4b" fill-opacity="0.7"/>
+    <!-- Turntable Plate reflection -->
+    <ellipse cx="94" cy="115" rx="55" ry="16" fill="#38bdf8" fill-opacity="0.4"/>
+    <!-- Control Panel -->
+    <rect x="186" y="14" width="62" height="142" rx="6" fill="#0f172a"/>
+    <!-- LED Clock -->
+    <rect x="194" y="22" width="46" height="24" rx="4" fill="#020617"/>
+    <text x="217" y="38" font-family="monospace" font-size="10" font-weight="bold" fill="#38bdf8" text-anchor="middle">12:30</text>
+    <!-- Buttons -->
+    <circle cx="206" cy="62" r="5" fill="#475569"/>
+    <circle cx="228" cy="62" r="5" fill="#475569"/>
+    <circle cx="206" cy="78" r="5" fill="#475569"/>
+    <circle cx="228" cy="78" r="5" fill="#475569"/>
+    <!-- Dial -->
+    <circle cx="217" cy="110" r="14" fill="#64748b" stroke="#cbd5e1" stroke-width="1.5"/>
+    <text x="130" y="195" font-family="'Cairo', sans-serif" font-size="9" font-weight="900" fill="#e2e8f0" text-anchor="middle">TORNADO 36L GRILL DIGITAL</text>
+  </g>
+</svg>
